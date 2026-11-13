@@ -6,7 +6,7 @@ $(document).ready(function() {
         .click(function(){return false;}).addClass("current-page-link");
 
     $("#banner a")
-        .filter(function (index){return this.href == window.location.href || window.location.href == "http://nicopolyptic.github.io/"; })
+        .filter(function (index){return this.href == window.location.href || window.location.href == "https://nicopolyptic.github.io/"; })
         .click(function(){return false;}).addClass("current-page-home");
 
     var overSwitch = function(){$("#projects").css("display","block");$("#page").fadeTo(200, 0.3);};

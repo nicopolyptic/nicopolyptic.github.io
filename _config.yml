@@ -1,6 +1,6 @@
 safe:        false
 auto:        false
-host: http://nicopolyptic.github.io
+host: https://nicopolyptic.github.io
 #host: file://localhost/Users/nnguyen/Documents/sourcecode/nicopolyptic.github.io/_site
 source:      .
 destination: ./_site
@@ -23,7 +23,7 @@ rdiscount:
   extensions: []
 
 kramdown:
-  auto_ids: true,
+  auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
