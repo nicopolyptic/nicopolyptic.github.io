@@ -95,7 +95,8 @@
 
 <div id="block">
     <div id="footnote">
-        Website created by Nicholas Nguyen.
+        Website created by Nicholas Nguyen. &copy; <span id="footnote-year">{{ site.time | date: "%Y" }}</span>
+        <script type="text/javascript">document.getElementById("footnote-year").innerHTML = new Date().getFullYear();</script>
     </div>
    <!--<div id="warning"><span style="font-size:120%">T</span>HEY <span style="font-size:120%">W</span>ANT TO <span style="font-size:120%">M</span>ICROCHIP <span style="font-size:120%">Y</span>OU<span style="font-size:140%; padding-left:5px;">!</span></div>-->
 
